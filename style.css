@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+/*Formateado de pantalla*/
+.tarjeta{
+    display: flex;
+    width: 250px;
+    height: 430px;
+    background-color: rgb(227, 196, 71);
+    margin: 10px;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.9);
+    transition: transform 1s ease;
+}
+
+.tarjeta:hover{
+    transform: rotate(-360deg); /* Inclina el div hacia arriba */
+}
+
+img{
+    width: 230px;
+    margin: 10px;
+}
+
+.contenedor_Principal{
+    display: flex;
+    width: 810px;
+    flex-wrap: wrap;
+    background-color: rgb(195, 177, 211);
+}
+
+h2{
+    text-align: center;
+}
